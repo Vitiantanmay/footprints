@@ -21,7 +21,7 @@ export default function Hero({ onSelectShoe }: HeroProps): React.ReactNode {
     <section className="h-screen w-full flex flex-col justify-center items-center relative snap-start overflow-hidden">
       <div className="absolute inset-0 flex items-center justify-center">
         <img
-          src="assets/img/cover.png"
+          src="/img/cover.png"
           alt="Hero Shoe"
           className="w-[80%] max-w-4xl object-contain -rotate-12 transition-transform duration-500 ease-out hover:rotate-0 hover:scale-105"
         />
